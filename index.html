@@ -11,6 +11,7 @@
       gtag('config', 'AW-18113735600');
     </script>
     <script>
+        
 function gtag_report_conversion(url) {
   var callback = function () {
     if (typeof(url) != 'undefined') {
@@ -25,6 +26,7 @@ function gtag_report_conversion(url) {
   });
   return false;
 }
+
 function gtag_report_conversion_form(url) {
   var callback = function () {
     if (typeof(url) != 'undefined') {
@@ -32,13 +34,14 @@ function gtag_report_conversion_form(url) {
     }
   };
   gtag('event', 'conversion', {
-      'send_to': 'AW-18113735600/ycz2CLWw9qEcELDXpr1D',
+      'send_to': 'AW-18113735600/diTrCLb3y6EcELDXpr1D',
       'value': 1.0,
       'currency': 'VND',
       'event_callback': callback
   });
   return false;
 }
+
 function gtag_report_conversion_zalo(url) {
   var callback = function () {
     if (typeof(url) != 'undefined') {
